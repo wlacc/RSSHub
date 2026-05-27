@@ -2,9 +2,9 @@ import { Route } from '@/types';
 import handler from './handler';
 
 export const route: Route = {
-    path: '/latest',
-    name: 'Artist projects',
+    path: '/projects',
+    name: 'Artist Projects',
     url: 'www.futures-photography.com',
-    maintainers: ['wlacc'],
+    maintainers: ['yourGitHubUsername'],
     handler,
 };
